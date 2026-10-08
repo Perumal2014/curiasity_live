@@ -1,0 +1,24 @@
+{
+    "Calendar": {
+        "item_id": "3732222",
+        "migration": [
+            "2021_11_24_114915_create_calendars_table.php",
+            "2021_11_25_124902_AddCalendarToFrontend.php",
+            "2022_11_03_151731_AddPermissionForCalendar.php",
+
+            "2021_10_17_105618_create_lms_events_table.php",
+            "2021_10_18_141627_AddEmailTemplateForCommunicateModule.php",
+            "2021_11_23_171941_AddEventEmailTemplate.php",
+            "2024_11_03_144915_AddPermissionForCommunicate.php"
+        ],
+        "versions": [
+            "3.0.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is communicate module for InfixLMS. Thanks for using."
+        ]
+    }
+}

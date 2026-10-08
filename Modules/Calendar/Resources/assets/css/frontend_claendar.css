@@ -1,0 +1,315 @@
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    margin-left: 30px;
+}
+
+/* line 7, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-right h2 {   display:none;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5b5675;
+}
+
+/* line 15, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-center button {
+    border: 1px solid #f0f1f2;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5b5675;
+    text-transform: capitalize;
+    position: relative;
+    padding: 8px 15px 9px 45px;
+}
+
+/* line 24, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-center button::before {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    content: "";
+    background-image: url(../img/cal_icon.svg);
+    width: 16px;
+    height: 19px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* line 38, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-left {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+/* line 42, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-left .fc-next-button {
+    margin-left: 3px;
+}
+
+/* line 45, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-left .fc-button {
+    padding: 0;
+    color: #e3e3e3;
+    font-size: 15px;
+}
+
+/* line 49, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-left .fc-button .fc-icon::before {
+    color: #e3e3e3;
+    font-size: 15px;
+}
+
+/* line 54, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-toolbar .fc-left h2 {
+    order: 1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #202e3b;
+}
+
+/* line 62, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-icon-chevron-left::before {
+    content: "\e64a";
+}
+
+/* line 65, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-icon-chevron-right::before {
+    content: "\e649";
+}
+
+/* line 70, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-view-container .fc-head td {
+    border-color: #f7f9fc;
+}
+
+/* line 73, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-view-container .fc-head td thead .fc-day-header {
+    background: #333bc3;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    border-color: #f7f9fc;
+    padding: 14.5px 15px !important;
+}
+
+/* line 87, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-view-container .fc-body .fc-widget-content .fc-day-grid .fc-row {
+    min-height: 105px !important;
+}
+
+/* line 89, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-view-container .fc-body .fc-widget-content .fc-day-grid .fc-row td {
+    border-color: #f0f1f2;
+}
+
+/* line 97, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-dayGrid-view .fc-week-number,
+.fc-dayGrid-view .fc-day-number {
+    padding: 5px 20px;
+    color: #5b5675 !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* line 104, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-day-grid-event {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    box-shadow: none !important;
+    /* height: auto; */
+    padding: 10px 15px 0 15px;
+}
+
+/* line 112, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-day-grid-event .fc-content {
+    white-space: normal;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+/* line 117, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-day-grid-event.fc-h-event.fc-event.fc-not-start.fc-end {
+    padding-left: 20px;
+}
+
+/* line 120, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-axis {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #5b5675;
+    font-weight: 500;
+    font-family: "Cerebri Sans";
+}
+
+/* line 127, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-ltr .fc-axis {
+    text-align: left;
+}
+
+/* line 130, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-time-grid .fc-slats td {
+    height: 105px;
+    border-bottom: 0;
+}
+
+/* line 134, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc .fc-axis {
+    vertical-align: super;
+    padding: 0 !important;
+    white-space: nowrap;
+    width: 119px !important;
+}
+
+/* line 139, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc .fc-axis span {
+    padding: 10px 20px;
+    display: block;
+}
+
+/* line 144, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.fc-day {
+    position: relative;
+}
+
+/* line 147, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.blue_bg::before {
+    content: "";
+    background: #e7f0fd;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: -1px;
+    top: -300%;
+    z-index: -1;
+    height: 800%;
+}
+
+/* line 159, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.paste_bg::before {
+    content: "";
+    background: #e2f6d6;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: -1px;
+    top: -300%;
+    z-index: -1;
+    height: 800%;
+}
+
+/* line 172, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-dialog {
+    max-width: 500px;
+}
+
+/* line 175, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-content {
+    padding: 36px 50px 40px 50px;
+    border-radius: 0;
+}
+
+/* line 179, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal_header {
+    margin-bottom: 23px;
+}
+
+/* line 182, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal_header .modal_header_left h4 {
+    font-size: 24px;
+    color: #202e3b;
+    font-weight: 700;
+    font-family: "Cerebri Sans";
+    margin-bottom: 4px;
+}
+
+/* line 189, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal_header .modal_header_left span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5b5675;
+    font-family: "Cerebri Sans";
+    display: block;
+}
+
+/* line 197, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal_header .link_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f0f1f2;
+    background: #f7f9fc;
+}
+
+/* line 208, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body {
+    padding: 0;
+}
+
+/* line 210, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_bg {
+    margin-bottom: 20px;
+}
+
+/* line 213, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .description_text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5b5675;
+    font-family: "Cerebri Sans";
+    margin-bottom: 10px;
+}
+
+/* line 221, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_author_info {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    margin-top: 35px;
+}
+
+/* line 226, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_author_info .thumb {
+    width: 60px;
+    height: 60px;
+    flex: 60px 0 0;
+}
+
+/* line 230, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_author_info .thumb img {
+    width: 100%;
+}
+
+/* line 235, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_author_info .modal_author_content h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #202e3b;
+    text-transform: uppercase;
+    font-family: "Cerebri Sans";
+    margin-bottom: 2px;
+    line-height: 1;
+}
+
+/* line 244, G:/laragon/www/themeforest/LMS/HTML/scss/_calender.scss */
+.lms_view_modal .modal-body .modal_author_info .modal_author_content p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5b5675;
+    font-family: "Cerebri Sans";
+    margin-bottom: 0;
+}

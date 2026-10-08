@@ -1,0 +1,20 @@
+{
+    "Organization": {
+        "item_id": "49680329",
+        "migration": [
+            "2022_11_29_123707_AddOrganizationModuleRole.php",
+            "2023_07_14_095140_create_add_organization_id_column_on_some_table.php",
+            "2023_07_17_083140_create_organization_finances_table.php",
+            "2023_07_17_104125_add_permission_organization_module.php"
+        ],
+        "versions": [
+            "2.3.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com"
+        ],
+        "notes": [
+            "Organization Module For InfixLMS. manages organizations and institutes with related students and instructors."
+        ]
+    }
+}

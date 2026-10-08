@@ -1,0 +1,19 @@
+{
+    "SCORM": {
+        "item_id": "31657888",
+        "migration": [
+            "2022_04_12_124557_AddScormColumnInLessonTable.php",
+            "2022_04_20_122234_create_scorm_reports_table.php",
+            "2023_05_11_122600_AddPermissionInScorm.php"
+        ],
+        "versions": [
+            "2.2.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is SCORM module for upload any SCORM to include in your course. Thanks for using."
+        ]
+    }
+}

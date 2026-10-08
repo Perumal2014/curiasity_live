@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://curiasity.com/bulletin/sitemap.xml

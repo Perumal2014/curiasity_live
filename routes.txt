@@ -1,0 +1,8 @@
+PHP Fatal error:  Cannot declare class Modules\Calendar\Http\Controllers\CalendarController, because the name is already in use in /home/curiasit/public_html/app/Http/Controllers/CalendarController.php on line 13
+
+In CalendarController.php line 13:
+                                                                               
+  Cannot declare class Modules\Calendar\Http\Controllers\CalendarController,   
+  because the name is already in use                                           
+                                                                               
+

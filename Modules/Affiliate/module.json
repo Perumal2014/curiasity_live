@@ -1,0 +1,10 @@
+{
+    "name": "Affiliate",
+    "alias": "affiliate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Affiliate\\Providers\\AffiliateServiceProvider"
+    ]
+}

