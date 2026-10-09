@@ -452,7 +452,7 @@ $image = $tenant?->tenant_logo ?? Settings('logo');
 
                                                                         <li>
 
-                                                                            <a href="">
+                                                                            <a href="">{{ $subcategory->name }}</a>
 
                                                                         </li>
 
