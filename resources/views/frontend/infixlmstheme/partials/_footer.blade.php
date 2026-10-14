@@ -437,6 +437,7 @@
 
     </script>
 </div>
+@include(theme('partials._chatbot'))
 </body>
 
 </html>
